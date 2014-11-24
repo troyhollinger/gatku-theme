@@ -147,9 +147,9 @@ include('header.php');
             <div class="apparel">
 
                 <div class="thumbs">
-                    <a href="<?php echo get_site_url();?>/apparel#1"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt2/shirt2-1.jpg"></a>
-                    <a href="<?php echo get_site_url();?>/apparel#2"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt1/shirt1-1.jpg"></a>
-                    <a href="<?php echo get_site_url();?>/apparel#3"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/jacket1/jacket1-1.jpg"></a>
+                    <a href="<?php echo get_site_url();?>/apparel#1"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt2/shirt2-thumb.jpg"></a>
+                    <a href="<?php echo get_site_url();?>/apparel#2"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt1/shirt1-thumb.jpg"></a>
+                    <a href="<?php echo get_site_url();?>/apparel#3"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/jacket1/jacket1-thumb.jpg"></a>
                 </div>
 
                 <div class="links">
