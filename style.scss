@@ -763,6 +763,35 @@ a {
 }
 
 
+.addon-row {
+
+	select {
+		/*width:100%;*/
+	width:auto;
+	float:right;
+	appearance:none;
+	@include appearance(none);
+	border:none;
+	background-color:white;
+	border-radius: 0;
+	font-family:$helvetica-light;
+	font-size: 1.5rem;
+	font-weight:300;
+	letter-spacing: -1px;
+	background-image:none;
+	background-color: white;
+	background:none !important;
+	/*text-align: right;*/
+
+	position: absolute;
+	right: 0px;
+	z-index: 5;
+	cursor:pointer;
+	padding-right: 25px;
+	}
+
+}
+
 #bands-select-arrow {
 	position:absolute;
 	right:0;
