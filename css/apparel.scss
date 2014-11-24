@@ -1,0 +1,238 @@
+@import 'bourbon/_bourbon.scss';
+
+// Mixins
+@mixin center {
+	position: absolute;
+	top:50%;
+	left:50%;
+	@include transform(translate(-50%,-50%));
+}
+
+@mixin stretch {
+	width:100%;
+	height:100%;
+}
+
+@mixin centerLeft {
+	position: absolute;
+	top:50%;
+	left:0;
+	@include transform(translate(0%,-50%));
+}
+
+@mixin centerRight {
+	position: absolute;
+	top:50%;
+	right:0;
+	@include transform(translate(0%,-50%));
+}
+
+@mixin breakpoint($point) {
+	@if $point == small {
+    	@media (max-width: 500px) { @content; }
+	}
+	@else if $point == medium {
+    	@media (max-width: 1250px) { @content; }
+	}
+	@else {
+		@media (max-width: $point) { @content; }
+	}
+  
+}
+
+
+// Main 
+
+
+body {
+	min-height: 1500px;
+
+	@include breakpoint(small) {
+
+		min-height: 1200px;
+
+	}
+}
+
+.apparel-carousel {
+
+	width:100%;
+	height:1000px;
+	position: relative;
+	overflow: hidden;
+
+	@include breakpoint(small) {
+		height:auto;
+	}
+
+}
+
+.apparel-container {
+	width:100%;
+	height:auto;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+
+}
+
+.apparel-item {
+	width:50%;
+	position: relative;
+	margin:70px auto 0 auto;
+
+	img {
+		width:100%;
+		@include user-select(none);
+		-webkit-user-drag: none;
+		cursor:move;
+	}
+
+	@include breakpoint(medium) {
+		width:75%;
+	}
+	@include breakpoint(small) {
+		width:100%;
+	}
+
+}
+
+
+.apparel-info {
+	width:auto;
+	height:auto;
+	position: absolute;
+	top:10%;
+	left:-15%;
+
+
+	@include breakpoint(small) {
+
+		position: static;
+		margin-left: 40px;
+		.column-left {
+			float:none;
+		}
+	}
+
+}	
+
+.apparel-purchase {
+	width:auto;
+	// width:auto;
+	// @include center;
+	height:auto;
+	position: absolute;
+	top:10%;
+	left:80%;
+
+	@include breakpoint(medium) {
+		@include center;
+		width:auto;
+		top:125%;
+		margin-bottom: 100px;
+	}
+	@include breakpoint(small) {
+		position: static;
+		// top:140%;
+		margin:0 auto;
+		width:85%;
+
+		@include transform(translate(0));
+
+		.button  {
+			bottom: 0 !important;
+		}
+		.column-left {
+			float:none;
+		}
+
+		.column-right {
+			float:none;
+			width:100% !important;
+		}
+	}
+
+
+}
+
+#span-2 {
+	margin-top: 20px;
+	@include centerLeft;
+	margin-left: 100px;
+}
+#span-3 {
+	margin-top: 70px;
+	@include centerLeft;
+	margin-left: 100px;
+}
+
+.skippr {
+	height:1500px !important;
+	overflow-y: scroll !important;
+	overflow-x:hidden !important;
+
+	@include breakpoint(small) {
+		height: 1200px !important;
+	}
+}
+
+
+.skippr-nav-item {
+	border-color: black !important;
+}
+
+.skippr-nav-container {
+	display: none !important;
+}
+
+#mobile-menu {
+	display: none;
+
+	@include breakpoint(small) {
+
+		display: block;
+
+	}
+}
+
+
+
+
+.skippr-arrow {
+	top:30% !important;
+
+	@include breakpoint(small) {
+		top:15% !important;
+		height:15px !important;
+		width:15px !important;
+		// border-width: 1px !important;
+	}
+}
+
+
+
+.drag-prompt {
+
+	@include center;
+	position: fixed;
+	top:90%;
+	color:gray;
+	font-size: .8rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

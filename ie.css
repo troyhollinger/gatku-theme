@@ -1,0 +1,28 @@
+.no-ie {
+	display:none;
+}
+
+.twodiv a {
+		font-size: 20px;
+		color:grey;
+		font-family: Helvetica, sans-serif;
+		text-decoration: none;
+		-webkit-font-smoothing:antialiased;
+		margin:0 16px;
+		font-weight: bold;
+
+	}
+.onediv p {
+	-webkit-font-smoothing:antialiased;
+
+}
+.onediv {
+	width:600px;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	color:grey;
+	margin-bottom: 75px;
+	margin-top: 75px;
+	font-weight: bold;
+
+}
