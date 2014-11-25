@@ -108,6 +108,7 @@ include('header.php');
 	echo '<script src="' . get_template_directory_uri() . '/jquery.js' . '"></script>';
 	echo '<script src="' . get_template_directory_uri() . '/jquery.mmenu.min.js' . '"></script>';
 	echo '<script src="' . get_template_directory_uri() . '/js/jquery.skippr.js' . '"></script>';
+	echo '<script src="' . get_template_directory_uri() . '/js/rollerblade.min.js' . '"></script>';
 	echo '<script src="' . get_template_directory_uri() . '/js/apparel.js' . '"></script>';
 
 } ?>

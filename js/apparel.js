@@ -247,13 +247,26 @@ var apparel = {
 	],
 	create : function() {
 		var _ = this;
-		var shirt1 = new apparelRotator($("#shirt-1"), 20, _.shirtImages[0]);
-		var shirt2 = new apparelRotator($("#shirt-2"), 20, _.shirtImages[1]);
-		var shirt3 = new apparelRotator($("#shirt-3"), 20, _.shirtImages[2]);
+		// var shirt1 = new apparelRotator($("#shirt-1"), 20, _.shirtImages[0]);
+		// var shirt2 = new apparelRotator($("#shirt-2"), 20, _.shirtImages[1]);
+		// var shirt3 = new apparelRotator($("#shirt-3"), 20, _.shirtImages[2]);
 
-		shirt1.init();
-		shirt2.init();
-		shirt3.init();
+		$("#shirt-1").rollerblade({
+			imageArray : _.shirtImages[0],
+			sensitivity : 20
+		});
+		$("#shirt-2").rollerblade({
+			imageArray : _.shirtImages[1],
+			sensitivity : 20
+		});
+		$("#shirt-3").rollerblade({
+			imageArray : _.shirtImages[2],
+			sensitivity : 20
+		});
+
+		// shirt1.init();
+		// shirt2.init();
+		// shirt3.init();
 	}
 }
 
