@@ -313,7 +313,8 @@ $(document).ready(function() {
 	 
 	}
 
-	// console.log(carousel);
+	// Add the drop down arrow to shirt sizes select.
+	$(".addon-row select").after("<div id='bands-select-arrow'> </div>");
 
 });
 

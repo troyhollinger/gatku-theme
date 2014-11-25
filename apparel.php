@@ -72,7 +72,7 @@ include('header.php');
 				<div class="apparel-purchase">
 					<div class="column-right">
 					  <p class="price"><big>$<?php echo the_field('product_price');?></big>&nbsp;/Ships Free w/Pole Purchase</p>
-					  <p class="caption">Click to Add to Order</p>
+					  <p class="caption">Choose Your Size</p>
 					  <div class="addon-row left">
 					    <?php echo the_content(); ?>
 					  </div>
