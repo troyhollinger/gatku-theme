@@ -251,15 +251,15 @@ var apparel = {
 		// var shirt2 = new apparelRotator($("#shirt-2"), 20, _.shirtImages[1]);
 		// var shirt3 = new apparelRotator($("#shirt-3"), 20, _.shirtImages[2]);
 
-		$("#shirt-1").rollerblade({
+		$("#apparel-1").rollerblade({
 			imageArray : _.shirtImages[0],
 			sensitivity : 20
 		});
-		$("#shirt-2").rollerblade({
+		$("#apparel-2").rollerblade({
 			imageArray : _.shirtImages[1],
 			sensitivity : 20
 		});
-		$("#shirt-3").rollerblade({
+		$("#apparel-3").rollerblade({
 			imageArray : _.shirtImages[2],
 			sensitivity : 20
 		});
