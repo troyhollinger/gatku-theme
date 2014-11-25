@@ -134,7 +134,10 @@ body {
 
 		fieldset {
 
-			min-height: 120px;
+			@include breakpoint(small) {
+				min-height: 120px;	
+			}
+			
 
 		}
 
