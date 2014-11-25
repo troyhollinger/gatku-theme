@@ -212,16 +212,6 @@ var apparel = {
 
 	},
 	shirtImages : [
-		[ 
-			rootPath + 'shirt1/shirt1-1.jpg', 
-			rootPath + 'shirt1/shirt1-2.jpg', 
-			rootPath + 'shirt1/shirt1-3.jpg',
-			rootPath + 'shirt1/shirt1-4.jpg', 
-			rootPath + 'shirt1/shirt1-5.jpg', 
-			rootPath + 'shirt1/shirt1-6.jpg', 
-			rootPath + 'shirt1/shirt1-7.jpg',
-			rootPath + 'shirt1/shirt1-8.jpg'
-		],
 
 		[ 
 			rootPath + 'shirt2/shirt2-1.jpg', 
@@ -234,6 +224,17 @@ var apparel = {
 			rootPath + 'shirt2/shirt2-8.jpg'
 		],
 
+		[ 
+			rootPath + 'shirt1/shirt1-1.jpg', 
+			rootPath + 'shirt1/shirt1-2.jpg', 
+			rootPath + 'shirt1/shirt1-3.jpg',
+			rootPath + 'shirt1/shirt1-4.jpg', 
+			rootPath + 'shirt1/shirt1-5.jpg', 
+			rootPath + 'shirt1/shirt1-6.jpg', 
+			rootPath + 'shirt1/shirt1-7.jpg',
+			rootPath + 'shirt1/shirt1-8.jpg'
+		],
+		
 		[ 
 			rootPath + 'jacket1/jacket1-1.jpg', 
 			rootPath + 'jacket1/jacket1-2.jpg', 
