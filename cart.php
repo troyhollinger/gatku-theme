@@ -66,8 +66,8 @@ wp_head();
 
 		    <div class="links">
 
-		    	<a href="<?php echo get_site_url();?>/apparel"><strong>SUPERHERO</strong></a>
-		        <a href="<?php echo get_site_url();?>/apparel"><strong>9'ER</strong></a>		       
+		        <a href="<?php echo get_site_url();?>/apparel"><strong>9'ER</strong></a>
+		        <a href="<?php echo get_site_url();?>/apparel"><strong>SUPERHERO</strong></a>
 		        <a href="<?php echo get_site_url();?>/apparel"><strong>COMFORT</strong></a>
 
 		    </div>
