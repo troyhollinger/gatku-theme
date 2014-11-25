@@ -110,7 +110,9 @@ body {
 	@include breakpoint(small) {
 
 		position: static;
-		margin-left: 40px;
+		@include box-sizing(border-box);
+		padding:0 20px;
+		width:100%;
 		.column-left {
 			float:none;
 		}
@@ -126,6 +128,17 @@ body {
 	position: absolute;
 	top:10%;
 	left:80%;
+	
+
+	.addtocart {
+
+		fieldset {
+
+			min-height: 120px;
+
+		}
+
+	}
 
 	@include breakpoint(medium) {
 		@include center;
