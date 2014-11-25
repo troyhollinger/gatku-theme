@@ -100,7 +100,7 @@ include('header.php');
 <script> var thisPage = "apparel";</script>
 <script>
 	
-	var templatePath = '<?php echo bloginfo("template_directory"); ?>';
+	var templatePath = '<?php echo get_template_directory_uri(); ?>';
 
 </script>
 
