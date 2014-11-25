@@ -59,16 +59,16 @@ wp_head();
 
 		<div class="apparel">
 		    <div class="thumbs">
-		        <a href="<?php echo get_site_url();?>/apparel"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt1/shirt1-1.jpg"></a>
-		        <a href="<?php echo get_site_url();?>/apparel"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt2/shirt2-1.jpg"></a>
+		    	<a href="<?php echo get_site_url();?>/apparel"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt2/shirt2-1.jpg"></a>
+		        <a href="<?php echo get_site_url();?>/apparel"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/shirt1/shirt1-1.jpg"></a>		 
 		        <a href="<?php echo get_site_url();?>/apparel"><img src="<?php echo get_template_directory_uri() ;?>/img/apparel/jacket1/jacket1-1.jpg"></a>
 		    </div>
 
 		    <div class="links">
 
-		        <a href="<?php echo get_site_url();?>/apparel"><strong>SHIRT 1</strong></a>
-		        <a href="<?php echo get_site_url();?>/apparel"><strong>SHIRT 2</strong></a>
-		        <a href="<?php echo get_site_url();?>/apparel"><strong>SWEATER</strong></a>
+		    	<a href="<?php echo get_site_url();?>/apparel"><strong>SUPERHERO</strong></a>
+		        <a href="<?php echo get_site_url();?>/apparel"><strong>9'ER</strong></a>		       
+		        <a href="<?php echo get_site_url();?>/apparel"><strong>COMFORT</strong></a>
 
 		    </div>
 		    <p class="store-label">CHECK OUT OUR APPAREL</p>
