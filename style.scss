@@ -873,6 +873,13 @@ label {
 
 }
 
+th#cartItem.nb {
+
+	@include breakpoint(small) {
+		display: none;
+	}
+
+}
 
 .redstar {
 	width:20px;
